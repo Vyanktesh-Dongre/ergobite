@@ -8,7 +8,7 @@ const Overview = () => {
             <div className=" text-center">
                 <h1 className="text-[#02033B] text-[36px]">Overview</h1>
                 <div className="w-full text-center justify-center pt-[26px]">
-                    <p className="px-[20%]">The client is a leading player in the refinery industry, committed to leveraging cutting-edge technologies to 
+                    <p className="px-[5%] sm:px-[20%]">The client is a leading player in the refinery industry, committed to leveraging cutting-edge technologies to 
                         optimize their operations. With a strong focus on innovation and efficiency, they sought to enhance their data analysis and decision-making 
                         processes. By implementing an AI-powered system, they aimed to streamline the categorization and summarization of operator comments, 
                         ultimately driving improved operational efficiency and smarter decision-making.
@@ -17,11 +17,11 @@ const Overview = () => {
                 <div className="relative w-full flex justify-center items-center py-[73px]">
                     <div className="relative w-[80%] h-[323px]">
                         <Image className="w-full h-full rounded-[32px]" src={img} alt="goal-image" />
-                        <div className="absolute top-[86px] left-[106px] p-4">
+                        <div className="absolute top-[0] left-[0] md:top-[86px] md:left-[106px] p-4">
                             <h1 className="text-white text-[36px] font-[700]">Goal</h1>
                         </div>
-                        <div className="absolute top-[147px] left-[106px] w-[741px] text-left p-4">
-                            <p className="text-white text-[16px] font-[400]">The primary objective was to develop an advanced AI-powered system tailored for the client,
+                        <div className="absolute top-[100px] left-0 md:top-[147px] md:left-[106px] md:w-[741px] w-full text-left p-4">
+                            <p className="text-white text-[14px] sm:text-[16px] font-[400]">The primary objective was to develop an advanced AI-powered system tailored for the client,
                                 which would efficiently categorize and summarize operator comments from their refineries. This system aimed to significantly enhance data
                                 analysis and decision-making processes. Key aspects of this goal included:
                             </p>
@@ -29,7 +29,7 @@ const Overview = () => {
                     </div>
                 </div>            
             </div>
-            <div className="px-[304px] py-20">
+            <div className="px-5 xl:px-[304px] md:py-20">
                 <div className="grid grid-cols-2 gap-[58px]">
                     <div className="text-left">
                         <h1 className=" text-[#02033B] font-[800] text-[19px]">1. Accurate Data Categorization:</h1>

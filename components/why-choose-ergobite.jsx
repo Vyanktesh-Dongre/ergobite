@@ -22,95 +22,107 @@ const WhychooseErgobite = () => {
                     <h1 className="text-[36px] font-bold text-[#02033B]">Why Choose Ergobite</h1>
                     <h2 className="text-[18px]">Choose Ergobite for cutting-edge solutions, client-focused service, and a proven track record of success.</h2> 
                 </div>
-                <div className=" w-full mt-10 mx-auto lg:gap-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 ">
-                    <div className="w-[70%] mx-auto bg-white rounded-xl" >
+                <div className=" w-full gap-5 mt-10 mx-auto lg:gap-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 ">
+                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Expertise and Experience</h1>
+                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
                     </div>
-                    <div className="w-[70%] mx-auto bg-white rounded-xl" >
+                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Innovative Solutions</h1>
+                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">We are committed to delivering cutting-edge solutions that drive efficiency, growth, and competitive advantage.</p>
                     </div>
-                    <div className="w-[70%] mx-auto bg-white rounded-xl" >
+                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Client-Centric Approach</h1>
+                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">Our clients are at the heart of everything we do. We work closely with you to understand your needs and deliver solutions that exceed your expectations.</p>
                     </div>
-                    <div className="w-[70%] mx-auto bg-white rounded-xl" >
+                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Proven Track Record</h1>
+                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">Our successful track record of delivering robust and reliable solutions speaks for itself. We are a trusted partner for enterprises across various industries.</p>
                     </div>
-                    <div className="w-[70%] mx-auto bg-white rounded-xl" >
+                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Quality Assurance</h1>
+                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">We adhere to rigorous quality standards to ensure that our solutions meet the highest levels of performance and reliability.</p>
                     </div>
-                    <div className="w-[70%] mx-auto bg-white rounded-xl" >
+                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Exceptional Support</h1>
+                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">Our dedicated support team is committed to providing timely assistance and resolving issues promptly to keep your operations running smoothly.</p>
                     </div>
-                    <div className="w-[70%] mx-auto bg-white rounded-xl" >
+                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Transparency</h1>
+                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">We maintain open communication and transparency throughout the project lifecycle, ensuring clarity and trust in our partnership.</p>
                     </div>
-                    <div className="w-[70%] mx-auto bg-white rounded-xl" >
+                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Expertise and Experience</h1>
+                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">We maintain open communication and transparency throughout the project lifecycle, ensuring clarity and trust in our partnership.</p>
                     </div>
-                    <div className="w-[70%] mx-auto bg-white rounded-xl" >
+                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Expertise and Experience</h1>
+                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
                     </div>
                 </div>
             </div>
             <div className=" text-center mt-20">
-                    <h1 className="text-[36px] font-bold text-[#02033B]">Transforming Industries with Innovation</h1>
-                    <h2 className="text-[18px]">Choose Ergobite for cutting-edge solutions, client-focused service, and a proven track record of success.</h2> 
+                    <h1 className="text-[26px] sm:text-[36px] font-bold text-[#02033B]">Transforming Industries with Innovation</h1>
+                    <h2 className="mt-4 text-[18px]">Choose Ergobite for cutting-edge solutions, client-focused service, and a proven track record of success.</h2> 
             </div>
 
-            <div className=" w-full mt-10 lg:gap-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 ">
-                <div className="flex justify-end  ">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img1} alt="Rating" /> 
+            <div className="md:px-10 md:gap-10 lg:px-[5%] xl:px-[20%] w-full px-2 py-2 mt-10 lg:gap-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 ">
+                <div className="flex justify-end pb-2 relative">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img1} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Finance</h1>
                 </div>
-                <div className="mx-auto">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img2} alt="Rating" /> 
+                <div className="mx-auto pb-2 relative">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img2} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Healthcare</h1> 
                 </div>
-                <div className="flex justify-start">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img3} alt="Rating" /> 
+                <div className="flex justify-start pb-2 relative ">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img3} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Education</h1>
                 </div>
-                <div className="flex justify-end  ">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img4} alt="Rating" /> 
+                <div className="flex justify-end pb-2 relative ">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img4} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Transportation</h1> 
                 </div>
-                <div className="mx-auto">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img5} alt="Rating" /> 
+                <div className="mx-auto pb-2 relative">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img5} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Ecommerce</h1> 
                 </div>
-                <div className="flex justify-start">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img6} alt="Rating" /> 
+                <div className="flex justify-start pb-2 relative">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img6} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Travel</h1> 
                 </div>
-                <div className="flex justify-end  ">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img7} alt="Rating" /> 
+                <div className="flex justify-end pb-2 relative ">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img7} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Pharmaceutical</h1> 
                 </div>
-                <div className="mx-auto">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img8} alt="Rating" /> 
+                <div className="mx-auto pb-2 relative">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img8} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Manufacturing</h1>  
                 </div>
-                <div className="flex justify-start">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img9} alt="Rating" /> 
+                <div className="flex justify-start pb-2 relative">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img9} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Electricity</h1>  
                 </div>
-                <div className="flex justify-end  ">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img10} alt="Rating" /> 
+                <div className="flex justify-end pb-2 relative">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img10} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Carrer and HR</h1>  
                 </div>
-                <div className="mx-auto">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img11} alt="Rating" /> 
+                <div className="mx-auto pb-2 relative">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img11} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Real Estate</h1>  
                 </div>
-                <div className="flex justify-start">
-                    <Image className="w-[484px] h-[274px] rounded-lg" src={img12} alt="Rating" /> 
+                <div className="flex sm:justify-start pb-2 relative">
+                    <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img12} alt="Rating" />
+                    <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Data Engineering</h1>  
                 </div>
             </div>
         </div>

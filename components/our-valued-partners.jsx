@@ -106,7 +106,6 @@ import partner8 from '../public/firsteigen.png';
 
 const ValuedPartners = () => {
     const settings = {
-        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
@@ -124,29 +123,40 @@ const ValuedPartners = () => {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             }
         ]
     };
 
+    // const partners = [
+    //     { src: partner1, alt: 'Partner 1', width: 200, height: 100 },
+    //     { src: partner2, alt: 'Partner 2', width: 250, height: 150 },
+    //     { src: partner3, alt: 'Partner 3', width: 300, height: 200 },
+    //     { src: partner4, alt: 'Partner 4', width: 220, height: 110 },
+    //     { src: partner5, alt: 'Partner 5', width: 250, height: 150 },
+    //     { src: partner6, alt: 'Partner 3', width: 300, height: 200 },
+    //     { src: partner7, alt: 'Partner 4', width: 220, height: 110 },
+    //     { src: partner8, alt: 'Partner 5', width: 250, height: 150 },
+    // ];
+
     const partners = [
-        { src: partner1, alt: 'Partner 1', width: 200, height: 100 },
-        { src: partner2, alt: 'Partner 2', width: 250, height: 150 },
-        { src: partner3, alt: 'Partner 3', width: 300, height: 200 },
-        { src: partner4, alt: 'Partner 4', width: 220, height: 110 },
-        { src: partner5, alt: 'Partner 5', width: 250, height: 150 },
-        { src: partner6, alt: 'Partner 3', width: 300, height: 200 },
-        { src: partner7, alt: 'Partner 4', width: 220, height: 110 },
-        { src: partner8, alt: 'Partner 5', width: 250, height: 150 },
+        { src: partner1, alt: 'Partner 1' },
+        { src: partner2, alt: 'Partner 2' },
+        { src: partner3, alt: 'Partner 3' },
+        { src: partner4, alt: 'Partner 4' },
+        { src: partner5, alt: 'Partner 5' },
+        { src: partner6, alt: 'Partner 3' },
+        { src: partner7, alt: 'Partner 4' },
+        { src: partner8, alt: 'Partner 5' },
     ];
 
     return (
@@ -155,7 +165,7 @@ const ValuedPartners = () => {
                 <h1 className="text-[36px] font-bold text-[#02033B]">Our Valued Partners</h1>
                 <h2 className="text-[18px]">We proudly collaborate with a diverse range of clients, delivering tailored solutions that drive their success.</h2> 
             </div>
-            <div className="mt-[84px]">
+            <div className="mt-[84px] mb-[50px]">
                 <Slider {...settings}>
                     {partners.map((partner, index) => (
                         <div key={index} className="px-2 flex justify-center">
@@ -163,9 +173,7 @@ const ValuedPartners = () => {
                                 <Image 
                                     src={partner.src} 
                                     alt={partner.alt} 
-                                    width={partner.width} 
-                                    height={partner.height} 
-                                    className="rounded-lg"
+                                    className="rounded-lg w-[100px] h-[60px] md:w-[250px] md:h-[150]"
                                 />
                             </div>
                         </div>
