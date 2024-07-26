@@ -46,7 +46,7 @@ const OurTechnologyArsenal = () => {
 
     return (
         <div className="bg-black w-full h-auto pb-10">
-            <div className="text-center pt-[119px]">
+            <div className="text-center pt-[50px]">
                 <h2 className="text-white text-[36px] font-bold">Our Technology Arsenal</h2>
             </div>
             <div className="text-center pt-[18px]">
@@ -79,7 +79,7 @@ const OurTechnologyArsenal = () => {
                     ))}
                 </div>
             </div> */}
-            <div className="overflow-x-auto px-2 w-full h-[80px] bg-white rounded-[50px] mt-[46px] mb-[70px] place-content-center ">
+            <div className="overflow-x-auto px-2 w-[90%] mx-auto h-[80px] bg-white rounded-[50px] mt-[46px] mb-[70px] place-content-center ">
                 <div className="w-max flex justify-center items-center ">
                     {Object.keys(images).map((buttonName) => (
                         <button

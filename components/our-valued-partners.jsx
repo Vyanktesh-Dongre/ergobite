@@ -108,7 +108,7 @@ const ValuedPartners = () => {
     const settings = {
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -160,20 +160,20 @@ const ValuedPartners = () => {
     ];
 
     return (
-        <div className="w-full py-10 mt-10 " style={{ background: 'linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%)' }}>
+        <div className="w-full py-10  " style={{ background: 'linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%)' }}>
             <div className="text-center">
                 <h1 className="text-[36px] font-bold text-[#02033B]">Our Valued Partners</h1>
                 <h2 className="text-[18px]">We proudly collaborate with a diverse range of clients, delivering tailored solutions that drive their success.</h2> 
             </div>
-            <div className="mt-[84px] mb-[50px]">
+            <div className="mt-[84px]  mb-[50px]">
                 <Slider {...settings}>
                     {partners.map((partner, index) => (
-                        <div key={index} className="px-2 flex justify-center">
+                        <div key={index} className="px-2 items-center justify-center">
                             <div style={{ width: partner.width, height: partner.height }}>
                                 <Image 
                                     src={partner.src} 
                                     alt={partner.alt} 
-                                    className="rounded-lg w-[100px] h-[60px] md:w-[250px] md:h-[150]"
+                                    className="rounded-lg w-[100px] h-[60px] md:w-[250px] md:mx-auto md:h-[150]"
                                 />
                             </div>
                         </div>

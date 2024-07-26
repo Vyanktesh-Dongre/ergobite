@@ -53,9 +53,9 @@ const Header = () => {
 
   return (
     <div className={`fixed flex md:justify-center w-full md:mx-auto  ${scrolled ? 'h-[60px] bg-black' : 'h-[102px] bg-[#000000CC]'} transition-all duration-300 z-50`}>
-      <div className="flex ">
+      <div className="flex xl:gap-[35rem] ">
         {/* Company Logo */}
-        <div className="flex justify-items-start place-items-center">
+        <div className="flex justify-items-start place-items-center ml-5">
           <Image className={`w-[216px] h-[54px] ${scrolled ?  'w-[140px] h-[33px]' : 'w-[216px] h-[54px]' } `} src={img} alt="company logo" />
         </div>
         {/* Desktop Navigation */}

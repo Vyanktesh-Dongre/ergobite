@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-[400px_200px_200px_1fr] gap-10">
                 <div>
                     <Image className="w-[216px] h-[54px]" src={img} alt="ergobite-image"/>
-                    <p className="text-[#ffffff] w-96 sm:w-[322px] pt-[22px]">We offer comprehensive solutions in IT consulting, technology, and operations to meet the diverse needs of our clients</p>
+                    <p className="text-[#ffffff] w-full  sm:w-[322px] pt-[22px]">We offer comprehensive solutions in IT consulting, technology, and operations to meet the diverse needs of our clients</p>
                 </div>
                 <div className="text-[#ffffff]">
                     <h1>Useful Links</h1>

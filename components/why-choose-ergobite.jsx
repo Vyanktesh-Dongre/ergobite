@@ -22,7 +22,7 @@ const WhychooseErgobite = () => {
                     <h1 className="text-[36px] font-bold text-[#02033B]">Why Choose Ergobite</h1>
                     <h2 className="text-[18px]">Choose Ergobite for cutting-edge solutions, client-focused service, and a proven track record of success.</h2> 
                 </div>
-                <div className=" w-full gap-5 mt-10 mx-auto lg:gap-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 ">
+                <div className=" w-full gap-5 mt-10 lg:px-[15%] mx-auto lg:gap-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 ">
                     <div className="w-[90%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
                         <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Expertise and Experience</h1>
@@ -75,7 +75,7 @@ const WhychooseErgobite = () => {
                     <h2 className="mt-4 text-[18px]">Choose Ergobite for cutting-edge solutions, client-focused service, and a proven track record of success.</h2> 
             </div>
 
-            <div className="md:px-10 md:gap-10 lg:px-[5%] xl:px-[20%] w-full px-2 py-2 mt-10 lg:gap-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 ">
+            <div className="md:px-10 md:gap-10 lg:px-[5%] xl:px-[15%] w-full px-2 py-2 mt-10 lg:gap-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 ">
                 <div className="flex justify-end pb-2 relative">
                     <Image className="w-[100%] sm:w-[484px] h-[274px] rounded-lg" src={img1} alt="Rating" />
                     <h1 className="absolute bottom-0 left-0 m-5 text-[20px] md:text-[31px] text-white">Finance</h1>

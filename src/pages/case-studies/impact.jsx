@@ -6,11 +6,11 @@ const Impact = () => {
     return (
         <div className="bg-[#EFF5FD] pt-[53px]">
             <div className=" text-center">
-                <div className="relative w-full flex justify-center items-center py-[73px]">
-                    <div className="relative w-[80%] h-[323px]">
+                <div className="relative w-full flex justify-center items-center py-5 sm:py-[73px]">
+                    <div className="relative w-[80%] h-[25rem] sm:h-[323px]">
                         <Image className="w-full bg-[#161514] h-full rounded-[32px]" src={img} alt="goal-image" />
                         <div className="absolute top-0 left-0 sm:top-[86px] sm:left-[106px] p-4">
-                            <h1 className="text-white text-[36px] font-[700]">Impact</h1>
+                            <h1 className="text-white text-[28px] sm:text-[36px] font-[700]">Impact</h1>
                         </div>
                         <div className="absolute top-[70px] left-0 w-full sm:top-[147px] sm:left-[106px] md:w-[741px] text-left p-4">
                             <p className="text-white text-[16px] font-[400]">The primary objective was to develop an advanced AI-powered system tailored for the client,

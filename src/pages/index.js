@@ -45,7 +45,7 @@ export default function Home() {
       <div className='absolute -mt-28'>
         <StrategicAlliances />
       </div>
-      <div className='mt-[450px] sm:mt-[250px] md:mt-[400px] lg:mt-[600px]'>
+      <div className='mt-[450px] sm:mt-[250px] md:mt-[400px] lg:mt-[400px]'>
       <Discover />
       </div> 
     </div>
