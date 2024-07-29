@@ -4,7 +4,7 @@ import img from '../../../public/discover.png'
 const Discoverr = () => {
 
     return (
-        <div className="relative text-center mt-10">
+        <div className="relative text-center mt-10 3xl:max-w-[1920px] 3xl:mx-auto">
             <Image className="w-full xl:h-[625px]" src={img} alt="discover image" />
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="absolute inset-0 md:px-9 px-2 flex items-center justify-center">

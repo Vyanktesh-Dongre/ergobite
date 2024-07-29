@@ -6,7 +6,7 @@ import img2 from '../public/aws.png'
 const StrategicAlliances = () => {
     return (
         <>
-            <div className="w-full mx-auto flex justify-center">
+            <div className="w-full mx-auto flex justify-center 3xl:max-w-[1920px] 3xl:mx-auto  ">
                 <div className="md:w-[80%] gap-10 px-2 md:pl-24 md:pr-10 py-[1%] bg-black grid grid-cols-1 sm:grid-cols-2 rounded-[20px]" style={{ boxShadow: '0px 20px 24.7px 0px #E1E5EB80' }}>
                     <div className="my-auto">
                         <p className="text-white text-[40px]">Our Strategic Alliances</p>

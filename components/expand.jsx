@@ -5,7 +5,7 @@ import img from '../public/blkimg.png'
 const ExpandingAI = () => {
 
     return (
-        <section className="relative w-full">
+        <section className="relative w-full 3xl:max-w-[1920px] 3xl:mx-auto">
             <div className="relative w-full h-[515px]">
                 <Image className="w-full h-full object-cover" src={img} alt="company logo" />
                 <div className="w-full">

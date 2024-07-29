@@ -45,13 +45,13 @@ const OurTechnologyArsenal = () => {
     const itemsPerPage = 7;
 
     return (
-        <div className="bg-black w-full h-auto pb-10">
+        <div className="bg-black w-full h-auto pb-10 3xl:max-w-[1920px] 3xl:mx-auto">
             <div className="text-center pt-[50px]">
                 <h2 className="text-white text-[36px] font-bold">Our Technology Arsenal</h2>
             </div>
             <div className="text-center pt-[18px]">
-                <h2 className="text-white text-[20px]">Leveraging a robust and versatile tech stack, we deliver cutting-edge solutions 
-                    <br /> to meet your business needs.</h2>
+                <h3 className="text-white text-[20px]">Leveraging a robust and versatile tech stack, we deliver cutting-edge solutions 
+                    <br /> to meet your business needs.</h3>
             </div>
             {/* <div className="flex mx-auto px-2 w-[1516px] h-[80px] bg-white rounded-[50px] mt-[46px] mb-[70px]">
                 <div className="w-full mx-auto my-auto flex justify-around">
@@ -79,7 +79,7 @@ const OurTechnologyArsenal = () => {
                     ))}
                 </div>
             </div> */}
-            <div className="overflow-x-auto px-2 w-[90%] mx-auto h-[80px] bg-white rounded-[50px] mt-[46px] mb-[70px] place-content-center ">
+            <div className="overflow-x-auto px-2 w-full md:w-[90%] mx-auto h-[80px] bg-white md:rounded-[50px] mt-[46px] mb-[70px] place-content-center ">
                 <div className="w-max flex justify-center items-center ">
                     {Object.keys(images).map((buttonName) => (
                         <button

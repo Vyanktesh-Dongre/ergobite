@@ -4,12 +4,12 @@ import img from "../../../public/maintenance.png"
 const MaintainenceAndSupport = () => {
 
     return (
-        <div className="bg-[#EFF5FD] pt-10">
+        <div className="bg-[#EFF5FD] pt-12 3xl:max-w-[1920px] 3xl:mx-auto">
             <div className=" text-center">
                 <h1 className="text-[#02033B] font-[500] text-[28px] sm:text-[36px]">Maintenance and Support</h1>
                         
             </div>
-            <div className="px-5 xl:px-[304px] md:py-10">
+            <div className="px-5 xl:px-[304px] md:py-10 pt-12 ">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-[48px]">
                     
                     <div className="text-left">
@@ -23,7 +23,7 @@ const MaintainenceAndSupport = () => {
                         <p className="text-[#02033B] font-[400] text-[16px] pt-2 ">Swift and efficient resolution of any critical issues. Our team is always available to ensure your product runs seamlessly, providing you with peace of mind.
                         </p>
                     </div>
-                    <div className="">
+                    <div className="pb-12 md:pb-0">
                         <Image className=" w-full h-full rounded-[10px]" src={img} alt="image"/>
                     </div>
                 </div>

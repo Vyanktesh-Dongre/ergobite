@@ -13,60 +13,58 @@ import img9 from '../public/electricity.png'
 import img10 from '../public/carrerandhr.png'
 import img11 from '../public/realestate.png'
 import img12 from '../public/dataengineering.png'
+import img13 from '../public/rocket.png'
+import img14 from '../public/oppo.png'
+import img15 from '../public/paper.png'
+import img16 from '../public/medal.png'
+import img17 from '../public/support.png'
+import img18 from '../public/transparency.png'
 
 const WhychooseErgobite = () => {
     return (
-        <div className="w-full py-10" style={{ background: 'linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%)' }}>
+        <div className="w-full py-10 3xl:max-w-[1920px] 3xl:mx-auto" style={{ background: 'linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%)' }}>
             <div className="">
                 <div className=" text-center">
                     <h1 className="text-[36px] font-bold text-[#02033B]">Why Choose Ergobite</h1>
                     <h2 className="text-[18px]">Choose Ergobite for cutting-edge solutions, client-focused service, and a proven track record of success.</h2> 
                 </div>
                 <div className=" w-full gap-5 mt-10 lg:px-[15%] mx-auto lg:gap-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 ">
-                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
+                    <div className="w-[100%] mx-auto bg-white rounded-xl" >
                         <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Expertise and Experience</h1>
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] font-[600] text-[#02033B]">Expertise and Experience</h1>
                         <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
                     </div>
-                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
-                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Innovative Solutions</h1>
+                    <div className="w-100%] mx-auto bg-white rounded-xl" >
+                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img13} alt="Rating" />
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] font-[600] text-[#02033B]">Innovative Solutions</h1>
                         <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">We are committed to delivering cutting-edge solutions that drive efficiency, growth, and competitive advantage.</p>
                     </div>
-                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
-                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Client-Centric Approach</h1>
+                    <div className="w-100%] mx-auto bg-white rounded-xl" >
+                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img14} alt="Rating" />
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] font-[600] text-[#02033B]">Client-Centric Approach</h1>
                         <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">Our clients are at the heart of everything we do. We work closely with you to understand your needs and deliver solutions that exceed your expectations.</p>
                     </div>
-                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
-                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Proven Track Record</h1>
+                    <div className="w-100%] mx-auto bg-white rounded-xl" >
+                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img15} alt="Rating" />
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] font-[600] text-[#02033B]">Proven Track Record</h1>
                         <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">Our successful track record of delivering robust and reliable solutions speaks for itself. We are a trusted partner for enterprises across various industries.</p>
                     </div>
-                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
-                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Quality Assurance</h1>
+                    <div className="w-100%] mx-auto bg-white rounded-xl" >
+                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img16} alt="Rating" />
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] font-[600] text-[#02033B]">Quality Assurance</h1>
                         <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">We adhere to rigorous quality standards to ensure that our solutions meet the highest levels of performance and reliability.</p>
                     </div>
-                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
-                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Exceptional Support</h1>
+                    <div className="w-100%] mx-auto bg-white rounded-xl" >
+                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img17} alt="Rating" />
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] font-[600] text-[#02033B]">Exceptional Support</h1>
                         <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">Our dedicated support team is committed to providing timely assistance and resolving issues promptly to keep your operations running smoothly.</p>
                     </div>
-                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
-                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Transparency</h1>
+                </div>
+                <div className=" w-full gap-5 mt-10 lg:px-[15%] mx-auto lg:gap-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 ">
+                    <div className="w-100%] mx-auto bg-white rounded-xl col-start-2 col-end-3" >
+                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img18} alt="Rating" />
+                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] font-[600] text-[#02033B]">Transparency</h1>
                         <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">We maintain open communication and transparency throughout the project lifecycle, ensuring clarity and trust in our partnership.</p>
-                    </div>
-                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
-                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">We maintain open communication and transparency throughout the project lifecycle, ensuring clarity and trust in our partnership.</p>
-                    </div>
-                    <div className="w-[90%] mx-auto bg-white rounded-xl" >
-                        <Image className="w-[55px] h-[55px] my-5 mx-5 " src={img} alt="Rating" />
-                        <h1 className="my-5 mx-5 text-[20px] sm:text-[31px] text-black">Expertise and Experience</h1>
-                        <p className="my-5 mx-5 text-[14px] sm:text-[17.51px]">With years of experience in software development and a strong focus on AI and ML, we bring unparalleled expertise to every project.</p>
                     </div>
                 </div>
             </div>

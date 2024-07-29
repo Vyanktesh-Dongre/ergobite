@@ -42,7 +42,7 @@ export default function Home() {
       <div>
         <ClientReviews />
       </div>
-      <div className='absolute -mt-28'>
+      <div className='w-full absolute -mt-28'>
         <StrategicAlliances />
       </div>
       <div className='mt-[450px] sm:mt-[250px] md:mt-[400px] lg:mt-[400px]'>

@@ -4,7 +4,7 @@ import img from "../../../public/quality.png"
 const Quality = () => {
 
     return (
-        <div className="bg-[#EFF5FD] pt-[53px]">
+        <div className="bg-[#EFF5FD] pt-[53px] 3xl:max-w-[1920px] 3xl:mx-auto">
             <div className=" text-center">
                 <h1 className="text-[#02033B] font-[500] text-[36px]">Quality Assurance and Testing</h1>
                         

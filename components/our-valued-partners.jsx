@@ -160,7 +160,7 @@ const ValuedPartners = () => {
     ];
 
     return (
-        <div className="w-full py-10  " style={{ background: 'linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%)' }}>
+        <div className="w-full py-10 3xl:max-w-[1920px] 3xl:mx-auto " style={{ background: 'linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%)' }}>
             <div className="text-center">
                 <h1 className="text-[36px] font-bold text-[#02033B]">Our Valued Partners</h1>
                 <h2 className="text-[18px]">We proudly collaborate with a diverse range of clients, delivering tailored solutions that drive their success.</h2> 

@@ -4,7 +4,7 @@ import img from '../../../public/rating.png'
 
 const ChooseErgobite = () => {
     return (
-        <div className="w-full py-10" style={{ background: 'linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%)' }}>
+        <div className="w-full py-10 3xl:max-w-[1920px] 3xl:mx-auto" style={{ background: 'linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%)' }}>
             <div className="">
                 <div className="text-center px-5 sm:px-0">
                     <h1 className="text-[36px] font-bold text-[#02033B]">Why Choose Ergobite</h1>

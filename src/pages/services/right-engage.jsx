@@ -108,7 +108,7 @@ const RightEngagement = () => {
   const { img, title, subtitle, description, features, benefits } = engagementData[currentIndex];
 
   return (
-    <div className="bg-[#EFF5FD] pt-[53px]">
+    <div className="bg-[#EFF5FD] pt-[53px] 3xl:max-w-[1920px] 3xl:mx-auto">
       <div className="text-center">
         <h1 className="text-[#02033B] font-[500] text-[36px]">Find the Right Engagement Model for Your Custom Software Application</h1>
       </div>
